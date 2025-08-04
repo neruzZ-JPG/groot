@@ -1,0 +1,26 @@
+[
+    {
+        "service" : "adservice",
+        "promql" : "sum by(job) (rate(app_ads_ad_requests_total{job=\"opentelemetry-demo/adservice\"}[5m]))"
+    },
+    {
+        "service" : "currencyservice",
+        "promql" : "sum by(job) (rate(app_currency_counter_total{job=\"opentelemetry-demo/currencyservice\"}[5m]))"
+    },
+    {
+        "service" : "frontend",
+        "promql" : "sum by(job) (rate(app_frontend_requests_total{job=\"opentelemetry-demo/frontend\"}[5m]))"
+    },
+    {
+        "service" : "paymentservice",
+        "promql" : "sum by(job) (rate(app_payment_transactions_total{job=\"opentelemetry-demo/paymentservice\"}[5m]))"
+    },
+    {
+        "service" : "quoteservice",
+        "promql" : "sum by(job) (rate(quotes_total{job=\"opentelemetry-demo/quoteservice\"}[5m]))"
+    },
+    {
+        "service" : "recommendationservice",
+        "promql" : "sum by(job) (rate(app_recommendations_counter_total{job=\"opentelemetry-demo/recommendationservice\"}[5m]))"
+    }
+]

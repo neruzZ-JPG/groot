@@ -1,0 +1,395 @@
+[
+    {
+        "parent_folders": [
+            "job_metrics",
+            "gc",
+            "java"
+        ],
+        "metric_name": "time_rate",
+        "non_numeric_fields": [
+            "opentelemetry-demo/adservice"
+        ]
+    },
+    {
+        "parent_folders": [
+            "job_metrics",
+            "gc",
+            "dotnet"
+        ],
+        "metric_name": "commited_size_rate",
+        "non_numeric_fields": [
+            "opentelemetry-demo/accountingservice"
+        ]
+    },
+    {
+        "parent_folders": [
+            "job_metrics",
+            "gc",
+            "dotnet"
+        ],
+        "metric_name": "time_rate",
+        "non_numeric_fields": [
+            "opentelemetry-demo/accountingservice"
+        ]
+    },
+    {
+        "parent_folders": [
+            "service_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "frauddetectionservice"
+        ]
+    },
+    {
+        "parent_folders": [
+            "service_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "average",
+        "non_numeric_fields": [
+            "frontendproxy"
+        ]
+    },
+    {
+        "parent_folders": [
+            "service_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "average",
+        "non_numeric_fields": [
+            "recommendationservice"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "error"
+        ],
+        "metric_name": "error",
+        "non_numeric_fields": [
+            "recommendationservice",
+            "/schema.v1.Service/ResolveBoolean"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "tps_spike"
+        ],
+        "metric_name": "rate",
+        "non_numeric_fields": [
+            "flagd",
+            "GET /"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "tps_spike"
+        ],
+        "metric_name": "rate",
+        "non_numeric_fields": [
+            "flagd",
+            "GET /src/app/api/read-file/route"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "tps_spike"
+        ],
+        "metric_name": "rate",
+        "non_numeric_fields": [
+            "flagd",
+            "resolve page components"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "tps_spike"
+        ],
+        "metric_name": "rate",
+        "non_numeric_fields": [
+            "flagd",
+            "start response"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "tps_spike"
+        ],
+        "metric_name": "rate",
+        "non_numeric_fields": [
+            "frontend",
+            "GET /get.php"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "tps_spike"
+        ],
+        "metric_name": "rate",
+        "non_numeric_fields": [
+            "frontendproxy",
+            "router grafana egress"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "checkoutservice",
+            "oteldemo.CurrencyService/Convert"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "checkoutservice",
+            "oteldemo.PaymentService/Charge"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "emailservice",
+            "sinatra.render_template"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "flagd",
+            "GET /"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "flagd",
+            "GET /src/app/api/read-file/route"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "flagd",
+            "resolve page components"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "flagd",
+            "start response"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "frauddetectionservice",
+            "orders process"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "frontend",
+            "GET /get.php"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "99",
+        "non_numeric_fields": [
+            "frontendproxy",
+            "router grafana egress"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "95",
+        "non_numeric_fields": [
+            "flagd",
+            "GET /"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "95",
+        "non_numeric_fields": [
+            "flagd",
+            "GET /src/app/api/read-file/route"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "95",
+        "non_numeric_fields": [
+            "flagd",
+            "resolve page components"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "95",
+        "non_numeric_fields": [
+            "flagd",
+            "start response"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "95",
+        "non_numeric_fields": [
+            "frontend",
+            "GET /get.php"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "95",
+        "non_numeric_fields": [
+            "frontendproxy",
+            "router grafana egress"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "average",
+        "non_numeric_fields": [
+            "flagd",
+            "GET /"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "average",
+        "non_numeric_fields": [
+            "flagd",
+            "GET /src/app/api/read-file/route"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "average",
+        "non_numeric_fields": [
+            "flagd",
+            "resolve page components"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "average",
+        "non_numeric_fields": [
+            "flagd",
+            "start response"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "average",
+        "non_numeric_fields": [
+            "frontend",
+            "GET /get.php"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "average",
+        "non_numeric_fields": [
+            "frontendproxy",
+            "router grafana egress"
+        ]
+    },
+    {
+        "parent_folders": [
+            "span_metrics",
+            "latency_spike"
+        ],
+        "metric_name": "average",
+        "non_numeric_fields": [
+            "recommendationservice",
+            "/schema.v1.Service/ResolveBoolean"
+        ]
+    }
+]

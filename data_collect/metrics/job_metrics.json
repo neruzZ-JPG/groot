@@ -1,0 +1,140 @@
+[
+    {
+        "type" : "gc",
+        "language" : "dotnet",
+        "file_name" : "size_rate",
+        "promql" : "sum by(job) (rate(process_runtime_dotnet_gc_allocations_size_bytes_total[5m]))"
+    },
+    {
+        "type" : "gc",
+        "language" : "dotnet",
+        "file_name" : "time_rate",
+        "promql" : "sum by(job) (rate(process_runtime_dotnet_gc_duration_nanoseconds_total[5m]))"
+    },
+    {
+        "type" : "gc",
+        "language" : "dotnet",
+        "file_name" : "cnt_rate",
+        "promql" : "sum by(job) (rate(process_runtime_dotnet_gc_collections_count_total[5m]))"
+    },
+    {
+        "type" : "gc",
+        "language" : "dotnet",
+        "file_name" : "commited_size_rate",
+        "promql" : "sum by(job) (rate(process_runtime_dotnet_gc_committed_memory_size_bytes[5m]))"
+    },
+    {
+        "type" : "gc",
+        "language" : "java",
+        "file_name" : "cnt_rate",
+        "promql" : "sum by(job) (rate(jvm_gc_duration_seconds_count[5m]))"
+    },
+    {
+        "type" : "gc",
+        "language" : "java",
+        "file_name" : "time_rate",
+        "promql" : "sum by(job) (rate(jvm_gc_duration_seconds_sum[5m]))"
+    },
+    {
+        "type" : "gc",
+        "language" : "go",
+        "file_name" : "cnt_rate",
+        "promql" : "sum by(job) (rate(process_runtime_go_gc_count_total[5m]))"
+    },
+    {
+        "type" : "gc",
+        "language" : "go",
+        "file_name" : "time_rate",
+        "promql" : "sum by(job) (rate(process_runtime_go_gc_pause_ns_sum[5m]))"
+    },
+    {
+        "type" : "cpu",
+        "language" : "dotnet",
+        "file_name" : "user_cpu_time",
+        "promql" : "sum by(job) (rate(process_cpu_time_seconds_total{job=~\".*\", process_cpu_state=\"user\"}[5m]))"
+    },
+    {
+        "type" : "cpu",
+        "language" : "dotnet",
+        "file_name" : "system_cpu_time",
+        "promql" : "sum by(job) (rate(process_cpu_time_seconds_total{job=~\".*\", process_cpu_state=\"system\"}[5m]))"
+    },
+    {
+        "type" : "cpu",
+        "language" : "dotnet",
+        "file_name" : "user_cpu_time_ratio",
+        "promql" : "sum by (job) (rate(process_cpu_time_seconds_total{process_cpu_state=\"user\"}[5m]))/sum by (job) (rate(process_cpu_time_seconds_total{process_cpu_state=\"system\"}[5m]))"
+    },
+    {
+        "type" : "cpu",
+        "language" : "java",
+        "file_name" : "ratio",
+        "promql" : "sum by(job)(jvm_cpu_recent_utilization_ratio)"
+    },
+    {
+        "type" : "cpu",
+        "language" : "python",
+        "file_name" : "user_cpu_time",
+        "promql" : "sum by(job) (rate(system_cpu_time_seconds_total{state=\"user\"}[5m]))"
+    },
+    {
+        "type" : "cpu",
+        "language" : "python",
+        "file_name" : "system_cpu_time",
+        "promql" : "sum by(job) (rate(system_cpu_time_seconds_total{state=\"system\"}[5m]))"
+    },
+    {
+        "type" : "cpu",
+        "language" : "python",
+        "file_name" : "idle_cpu_time",
+        "promql" : "sum by(job) (rate(system_cpu_time_seconds_total{state=\"idle\"}[5m]))"
+    },
+    {
+        "type" : "cpu",
+        "language" : "python",
+        "file_name" : "irq_cpu_time",
+        "promql" : "sum by(job) (rate(system_cpu_time_seconds_total{state=\"irq\"}[5m]))"
+    },
+    {
+        "type" : "cpu",
+        "language" : "python",
+        "file_name" : "user_system_cpu_time",
+        "promql" : "sum by(job) (rate(system_cpu_time_seconds_total{state=\"user\"}[5m])) / sum by(job) (rate(system_cpu_time_seconds_total{state=\"system\"}[5m]))"
+    },
+    {
+        "type" : "cpu",
+        "language" : "python",
+        "file_name" : "user_cpu_time_ratio",
+        "promql" : "sum by(job) (system_cpu_utilization_ratio{state=\"user\"})"
+    },
+    {
+        "type" : "memory",
+        "language" : "dotnet",
+        "file_name" : "size",
+        "promql" : "sum by(job) (process_memory_usage_bytes)"
+    },
+    {
+        "type" : "memory",
+        "language" : "java",
+        "file_name" : "size",
+        "promql" : "sum by(job) (jvm_memory_used_bytes)"
+    },
+    {
+        "type" : "memory",
+        "language" : "java",
+        "file_name" : "size_after_gc",
+        "promql" : "sum by(job) (jvm_memory_used_after_last_gc_bytes)"
+    },
+    {
+        "type" : "memory",
+        "language" : "java",
+        "file_name" : "commited_size",
+        "promql" : "sum by(job) (jvm_memory_committed_bytes)"
+    },
+    {
+        "type" : "memory",
+        "language" : "python",
+        "file_name" : "used_size",
+        "promql" : "sum by(job)(system_memory_utilization_ratio{state=\"used\"})"
+    }
+]

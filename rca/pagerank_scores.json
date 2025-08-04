@@ -1,0 +1,42 @@
+{
+    "frauddetectionservice:latency_spike & 99:orders process": {
+        "score": 0.14578035718290444,
+        "rank": 1
+    },
+    "recommendationservice:error & error:/schema.v1.Service/ResolveBoolean": {
+        "score": 0.12404099026884194,
+        "rank": 2
+    },
+    "recommendationservice:latency_spike & average:/schema.v1.Service/ResolveBoolean": {
+        "score": 0.12404099026884194,
+        "rank": 3
+    },
+    "frontendproxy:tps_spike & rate:router grafana egress": {
+        "score": 0.11317130681181067,
+        "rank": 4
+    },
+    "frontendproxy:latency_spike & 99:router grafana egress": {
+        "score": 0.11317130681181067,
+        "rank": 5
+    },
+    "frontendproxy:latency_spike & 95:router grafana egress": {
+        "score": 0.11317130681181067,
+        "rank": 6
+    },
+    "frontendproxy:latency_spike & average:router grafana egress": {
+        "score": 0.11317130681181067,
+        "rank": 7
+    },
+    "frauddetectionservice:latency_spike & 99": {
+        "score": 0.05115081167738971,
+        "rank": 8
+    },
+    "frontendproxy:latency_spike & average": {
+        "score": 0.05115081167738971,
+        "rank": 9
+    },
+    "recommendationservice:latency_spike & average": {
+        "score": 0.05115081167738971,
+        "rank": 10
+    }
+}

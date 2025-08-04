@@ -1,0 +1,212 @@
+[
+    {
+        "service_name": "adservice",
+        "type": "job_metrics",
+        "metric_name": "gc & java & time_rate"
+    },
+    {
+        "service_name": "accountingservice",
+        "type": "job_metrics",
+        "metric_name": "gc & dotnet & commited_size_rate"
+    },
+    {
+        "service_name": "accountingservice",
+        "type": "job_metrics",
+        "metric_name": "gc & dotnet & time_rate"
+    },
+    {
+        "service_name": "frauddetectionservice",
+        "type": "service_metrics",
+        "metric_name": "latency_spike & 99"
+    },
+    {
+        "service_name": "frontendproxy",
+        "type": "service_metrics",
+        "metric_name": "latency_spike & average"
+    },
+    {
+        "service_name": "recommendationservice",
+        "type": "service_metrics",
+        "metric_name": "latency_spike & average"
+    },
+    {
+        "service_name": "recommendationservice",
+        "type": "span_metrics",
+        "metric_name": "error & error",
+        "span_name": "/schema.v1.Service/ResolveBoolean"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "tps_spike & rate",
+        "span_name": "GET /"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "tps_spike & rate",
+        "span_name": "GET /src/app/api/read-file/route"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "tps_spike & rate",
+        "span_name": "resolve page components"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "tps_spike & rate",
+        "span_name": "start response"
+    },
+    {
+        "service_name": "frontend",
+        "type": "span_metrics",
+        "metric_name": "tps_spike & rate",
+        "span_name": "GET /get.php"
+    },
+    {
+        "service_name": "frontendproxy",
+        "type": "span_metrics",
+        "metric_name": "tps_spike & rate",
+        "span_name": "router grafana egress"
+    },
+    {
+        "service_name": "checkoutservice",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 99",
+        "span_name": "oteldemo.CurrencyService/Convert"
+    },
+    {
+        "service_name": "checkoutservice",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 99",
+        "span_name": "oteldemo.PaymentService/Charge"
+    },
+    {
+        "service_name": "emailservice",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 99",
+        "span_name": "sinatra.render_template"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 99",
+        "span_name": "GET /"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 99",
+        "span_name": "GET /src/app/api/read-file/route"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 99",
+        "span_name": "resolve page components"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 99",
+        "span_name": "start response"
+    },
+    {
+        "service_name": "frauddetectionservice",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 99",
+        "span_name": "orders process"
+    },
+    {
+        "service_name": "frontend",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 99",
+        "span_name": "GET /get.php"
+    },
+    {
+        "service_name": "frontendproxy",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 99",
+        "span_name": "router grafana egress"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 95",
+        "span_name": "GET /"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 95",
+        "span_name": "GET /src/app/api/read-file/route"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 95",
+        "span_name": "resolve page components"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 95",
+        "span_name": "start response"
+    },
+    {
+        "service_name": "frontend",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 95",
+        "span_name": "GET /get.php"
+    },
+    {
+        "service_name": "frontendproxy",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & 95",
+        "span_name": "router grafana egress"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & average",
+        "span_name": "GET /"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & average",
+        "span_name": "GET /src/app/api/read-file/route"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & average",
+        "span_name": "resolve page components"
+    },
+    {
+        "service_name": "flagd",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & average",
+        "span_name": "start response"
+    },
+    {
+        "service_name": "frontend",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & average",
+        "span_name": "GET /get.php"
+    },
+    {
+        "service_name": "frontendproxy",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & average",
+        "span_name": "router grafana egress"
+    },
+    {
+        "service_name": "recommendationservice",
+        "type": "span_metrics",
+        "metric_name": "latency_spike & average",
+        "span_name": "/schema.v1.Service/ResolveBoolean"
+    }
+]

@@ -1,0 +1,26 @@
+adservice,flagd.evaluation.v1.Service/EventStream,0,0,0,0,0,0,0,0,0,0,0,0,0
+adservice,flagd.evaluation.v1.Service/ResolveBoolean,0,0,0,0,0,0,0,0,0,0,0,0,0
+checkoutservice,HTTP POST,0,0,0,0,0,0,0,0,0,0,0,0,0
+checkoutservice,oteldemo.CheckoutService/PlaceOrder,0,0,0,0,0,0,0,0,0,0,0,0,0
+checkoutservice,oteldemo.CurrencyService/Convert,0,0,0,0,0,0,0,0,0,0,0,0,0
+frauddetectionservice,flagd.evaluation.v1.Service/EventStream,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,GET,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,POST,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,executing api route (pages) /api/cart,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,executing api route (pages) /api/checkout,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,executing api route (pages) /api/currency,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,executing api route (pages) /api/data,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,executing api route (pages) /api/recommendations,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,grpc.oteldemo.AdService/GetAds,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,grpc.oteldemo.CartService/AddItem,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,grpc.oteldemo.CartService/GetCart,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,grpc.oteldemo.CheckoutService/PlaceOrder,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,grpc.oteldemo.CurrencyService/Convert,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,grpc.oteldemo.CurrencyService/GetSupportedCurrencies,0,0,0,0,0,0,0,0,0,0,0,0,0
+frontend,tcp.connect,0,0,0,0,0,0,0,0,0,0,0,0,0
+loadgenerator,GET,0,0,0,0,0,0,0,0,0,0,0,0,0
+loadgenerator,POST,0.03333333333333333,0.041666666666666664,0.025,0.033333472222800926,0.041666666666666664,0.025,0.025,0.025,0.016666666666666666,0.020833246528139466,0.024999895833767362,0.04583333333333333,0.020833333333333332
+paymentservice,GET,0,0,0,0,0,0,0,0,0,0,0,0,0
+paymentservice,dns.lookup,0,0,0,0,0,0,0,0,0,0,0,0,0
+paymentservice,tcp.connect,0,0,0,0,0,0,0,0,0,0,0,0,0
+recommendationservice,/schema.v1.Service/ResolveBoolean,0,0,0,0,0,0,0,0,0,0,0,0,0

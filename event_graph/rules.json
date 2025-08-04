@@ -1,0 +1,27 @@
+[
+    {
+        "SourceType" : "service_metrics",
+        "TargetType" : "service_metrics",
+        "condition" : "in_service_graph"
+    },
+    {
+        "SourceType" : "service_metrics",
+        "TargetType" : "span_metrics",
+        "condition" : "same_service"
+    },
+    {
+        "SourceType" : "span_metrics",
+        "TargetType" : "job_metrics",
+        "condition" : "same_service"
+    },
+    {
+        "SourceType" : "business_metrics",
+        "TargetType" : "span_metrics",
+        "condition" : "same_service"
+    },
+    {
+        "SourceType" : "span_metrics",
+        "TargetType" : "span_metrics",
+        "condition" : "in_span_service"
+    }
+]
